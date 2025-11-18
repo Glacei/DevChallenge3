@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "601156489814",
+    "project_id": "devchallenge3-bd",
+    "storage_bucket": "devchallenge3-bd.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:601156489814:android:b38393e1fd2bf1996b61f7",
+        "android_client_info": {
+          "package_name": "com.glacei.devchallenge3"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQZmd25OuP3Ru4PDokjhGmnMQ8IPWICck"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
