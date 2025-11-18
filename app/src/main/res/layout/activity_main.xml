@@ -11,6 +11,7 @@
         android:id="@+id/titulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@color/textoTitulos"
         android:text="@string/devchallenge3"
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
