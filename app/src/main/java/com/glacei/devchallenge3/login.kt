@@ -29,6 +29,17 @@ class login : AppCompatActivity() {
         // 2. Inicializa la instancia de FirebaseAuth
         auth = FirebaseAuth.getInstance()
 
+        binding.BotonInicio.setOnClickListener {
+            if (binding.editTextUser.text.isNotEmpty() && binding.editTextPassword.text.isNotEmpty()) {
+                iniciarSesion(
+                    binding.editTextUser.text.toString(),
+                    binding.editTextPassword.text.toString()
+                )
+
+            }
+
+        }
+
     }
 
     // Función para iniciar sesión ---------------------------------------------------------------------------
