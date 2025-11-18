@@ -11,4 +11,8 @@
     <string name="ajustes">Ajustes</string>
     <string name="iniciar_sesi_n">Iniciar Sesión</string>
     <string name="registro">Registro</string>
+    <string name="perfil">Perfil de caballeria</string>
+    <string name="volver">Volver</string>
+
+
 </resources>

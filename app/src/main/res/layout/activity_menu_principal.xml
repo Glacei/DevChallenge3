@@ -21,7 +21,7 @@
         app:layout_constraintVertical_bias="0.083" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/buttonDuelo"
         android:layout_width="247dp"
         android:layout_height="49dp"
         android:backgroundTint="@color/Botones"
@@ -35,32 +35,46 @@
         app:layout_constraintVertical_bias="0.127" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/buttonAmigos"
         android:layout_width="247dp"
         android:layout_height="49dp"
         android:backgroundTint="@color/Botones"
         android:text="@string/caballeros_conocidos"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/button3"
+        app:layout_constraintEnd_toEndOf="@+id/buttonDuelo"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/button3"
-        app:layout_constraintTop_toBottomOf="@+id/button3"
+        app:layout_constraintStart_toStartOf="@+id/buttonDuelo"
+        app:layout_constraintTop_toBottomOf="@+id/buttonDuelo"
         app:layout_constraintVertical_bias="0.089" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/buttonPerfil"
+        android:layout_width="247dp"
+        android:layout_height="49dp"
+        android:backgroundTint="@color/Botones"
+        android:text="@string/perfil"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/buttonDuelo"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/buttonDuelo"
+        app:layout_constraintTop_toBottomOf="@+id/buttonAmigos"
+        app:layout_constraintVertical_bias="0.13" />
+
+    <Button
+        android:id="@+id/buttonAjustes"
         android:layout_width="247dp"
         android:layout_height="49dp"
         android:backgroundTint="@color/Botones"
         android:text="@string/ajustes"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/button3"
+        app:layout_constraintEnd_toEndOf="@+id/buttonDuelo"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/button3"
-        app:layout_constraintTop_toBottomOf="@+id/button4"
-        app:layout_constraintVertical_bias="0.13" />
+        app:layout_constraintStart_toStartOf="@+id/buttonDuelo"
+        app:layout_constraintTop_toBottomOf="@+id/buttonAmigos"
+        app:layout_constraintVertical_bias="0.389" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
