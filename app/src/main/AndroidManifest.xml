@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DevChallenge3">
         <activity
+            android:name=".Register"
+            android:exported="false" />
+        <activity
+            android:name=".MenuPrincipal"
+            android:exported="false" />
+        <activity
             android:name=".login"
             android:exported="false" />
         <activity

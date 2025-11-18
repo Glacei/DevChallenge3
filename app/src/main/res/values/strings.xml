@@ -3,4 +3,12 @@
     <string name="devchallenge3">DevChallenge3</string>
     <string name="iniciar_sesion">Iniciar Sesion</string>
     <string name="registrarse">Registrarse</string>
+    <string name="usuario">Mail</string>
+    <string name="contrase_a">Contraseña</string>
+    <string name="entra">¡Entra!</string>
+    <string name="batirse_en_duelo">¡Batirse en duelo!</string>
+    <string name="caballeros_conocidos">Caballeros conocidos</string>
+    <string name="ajustes">Ajustes</string>
+    <string name="iniciar_sesi_n">Iniciar Sesión</string>
+    <string name="registro">Registro</string>
 </resources>

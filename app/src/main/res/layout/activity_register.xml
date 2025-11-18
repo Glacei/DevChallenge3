@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".login">
+    tools:context=".Register">
 
     <TextView
         android:id="@+id/titulo"
@@ -50,7 +50,7 @@
         app:layout_constraintVertical_bias="0.105" />
 
     <Button
-        android:id="@+id/BotonInicio"
+        android:id="@+id/buttonRegistro"
         android:layout_width="159dp"
         android:layout_height="50dp"
         android:backgroundTint="@color/Botones"
@@ -66,7 +66,7 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/iniciar_sesi_n"
+        android:text="@string/registro"
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/editTextUser"
         app:layout_constraintEnd_toEndOf="parent"
