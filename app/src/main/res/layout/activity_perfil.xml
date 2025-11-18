@@ -36,28 +36,28 @@
 
     <TextView
         android:id="@+id/textIdentificador"
-        android:layout_width="372dp"
-        android:layout_height="40dp"
+        android:layout_width="322dp"
+        android:layout_height="92dp"
         android:text="TextView"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.41"
+        app:layout_constraintHorizontal_bias="0.25"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textTitulo"
-        app:layout_constraintVertical_bias="0.326" />
+        app:layout_constraintVertical_bias="0.371" />
 
     <ImageView
-        android:id="@+id/imagePerfil"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:scaleX="1"
-        android:scaleY="1"
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.056"
+        app:layout_constraintHorizontal_bias="0.05"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.207"
-        tools:srcCompat="@tools:sample/avatars" />
+        app:layout_constraintVertical_bias="0.138"
+        app:srcCompat="@drawable/caballero_con_casco_y_armadura_e" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
