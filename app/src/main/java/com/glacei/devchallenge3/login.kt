@@ -9,11 +9,14 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.glacei.devchallenge3.databinding.ActivityLoginBinding
 import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.database.DatabaseReference
+import com.google.firebase.database.FirebaseDatabase
 
 class login : AppCompatActivity() {
 
     // 1. Declara la variable de FirebaseAuth
     private lateinit var auth: FirebaseAuth
+
     private lateinit var binding: ActivityLoginBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -25,6 +28,7 @@ class login : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+
 
         // 2. Inicializa la instancia de FirebaseAuth
         auth = FirebaseAuth.getInstance()
