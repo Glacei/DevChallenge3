@@ -34,6 +34,8 @@ class Duelos : AppCompatActivity() {
         gameId = intent.getStringExtra("GAME_ID") ?: ""
         isAttacker = intent.getBooleanExtra("IS_ATTACKER", false)
 
+        binding.tvGameId.text = "CODI: $gameId" // Mostrem el codi de la partida a la UI
+
         if (gameId.isEmpty()) {
             Toast.makeText(this, "Error: ID de partida no vàlid", Toast.LENGTH_SHORT).show()
             finish()
