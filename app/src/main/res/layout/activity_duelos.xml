@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/main"
     android:layout_width="match_parent"
+    android:background="@drawable/caballero_pose1"
     android:layout_height="match_parent">
 
     <!-- Contenedor cuadrado al 65% del ancho -->
@@ -25,6 +26,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
             android:text="CODI: XXXXXX"
+            android:textColor="#FFFFFF"
             android:textSize="18sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
@@ -35,13 +37,14 @@
             android:id="@+id/tvRoleInfo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
             android:text="Rol: Carregant..."
+            android:textColor="#FFFFFF"
             android:textSize="20sp"
             android:textStyle="bold"
-            android:layout_marginBottom="10dp"
             app:layout_constraintBottom_toTopOf="@+id/gridLayout"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
 
 
 
@@ -57,6 +60,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:backgroundTint="#E98080"
                 android:text="↘" />
 
             <Button
@@ -64,13 +68,16 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="⬇" />
+                android:backgroundTint="#E98080"
+                android:text="⬇"
+                android:textColorLink="#56FFFFFF" />
 
             <Button
                 android:id="@+id/a3"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:backgroundTint="#E98080"
                 android:text="↙" />
         </LinearLayout>
 
@@ -86,6 +93,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:backgroundTint="#E98080"
                 android:text="➡" />
 
             <Button
@@ -93,6 +101,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:backgroundTint="#E98080"
                 android:text="⏹" />
 
             <Button
@@ -100,6 +109,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:backgroundTint="#E98080"
                 android:text="⬅" />
         </LinearLayout>
 
@@ -115,6 +125,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:backgroundTint="#E98080"
                 android:text="↗" />
 
             <Button
@@ -122,6 +133,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:backgroundTint="#E98080"
                 android:text="⬆" />
 
             <Button
@@ -129,6 +141,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:backgroundTint="#E98080"
                 android:text="↖" />
         </LinearLayout>
 
